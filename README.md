@@ -24,6 +24,7 @@
      some other CI framework.
    * Explain how to integrate testing against multiple Python
      interpreter versions with the CI framework you chose.
+   * Propose a branching model for managing changes and releases.
 
 7. Write a method that accepts an iterable of integers
    as input and returns an iterable containing all prime
