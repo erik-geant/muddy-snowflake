@@ -16,7 +16,9 @@
    `sql_cli.py` in this repository.
 
 6. Package `sql_cli.py` to be releasable as a python package.
-   * It should be installable using `pip`.
+   * It should be installable using `pip` and when installed the
+     script `sql_cli.py` should be executable from the command line
+     by running the command `check-sql` (with appropriate arguments).
    * Packaging should be convenient for release of consecutive
      versions via a package repository such as pypi.org.
    * Add a trivial unit test and show how to automate execution
